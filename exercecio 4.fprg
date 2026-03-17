@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercecio 2"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 03:17:18 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNTkxOzIwMjYtMDMtMTc7IjAxOjI2OjA5ICI7MjM2MQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNTkxOzIwMjYtMDMtMTc7IjAzOjE3OjE4ICI7NTsyNDc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="MA" type="Real" array="False" size=""/>
+            <declare name="MB" type="Real" array="False" size=""/>
+            <output expression="&quot;digite a sua primeira pontua&#231;&#227;o&quot;" newline="True"/>
+            <input variable="MA"/>
+            <output expression="&quot;digite sua outra pontua&#231;&#227;o&quot;" newline="True"/>
+            <input variable="MB"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <assign variable="media" expression="MA/2+MB/2"/>
+            <output expression="&quot;sua media final &#233; &quot;&amp;media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
